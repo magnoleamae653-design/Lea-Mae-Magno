@@ -6,10 +6,18 @@ Computer Science student at Catanduanes State University.
 
 [**Open the live HTML portfolio →**](https://magnoleamae653-design.github.io/Lea-Mae-Magno/)
 
-The live website includes About Me, Skills, Projects, and Contact sections with a C++ editor-inspired design.
+A modern, responsive portfolio with About, Skills, Projects, and Contact sections.
+
+### Interactive features
+
+- Light and dark themes with a saved preference
+- Mobile navigation and active section links
+- Project category filters
+- Subtle scroll animations that respect reduced-motion preferences
+- Copy-email button and direct email/GitHub links
 
 ## Website files
 
-The website is in [index.html](index.html) and is published through GitHub Pages. To preview it on your computer, download the repository and open `index.html` in a web browser.
+The website uses HTML, CSS, and vanilla JavaScript in [index.html](index.html), published through GitHub Pages. Download the repository and open `index.html` in a browser to preview it locally.
 
-GitHub renders this README as Markdown documentation. Open the live portfolio link above to see the fully styled HTML interface.
+GitHub renders this README as Markdown documentation. Use the live portfolio link to view the styled interface.
