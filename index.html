@@ -12,6 +12,15 @@
 @media(max-width:600px){.nav{height:72px}.menu{display:grid}.links{display:none;position:absolute;left:0;right:0;top:72px;background:var(--bg);border-bottom:1px solid var(--line);padding:24px;flex-direction:column}.links.open{display:flex}.hero{grid-template-columns:1fr;padding:45px 0}.hero h1{font-size:58px}.hero-art{min-height:320px}.hero p{font-size:16px}.strip{font-size:10px}.section-heading{align-items:start;flex-direction:column;gap:18px}section{padding:55px 0}.about-grid,.projects,.contact{grid-template-columns:1fr}.contact{padding:25px}.contact h2{font-size:38px}.footer{flex-direction:column;gap:8px}.preview{height:190px}.brand{font-size:22px}.nav{gap:10px}.eyebrow{font-size:11px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.reveal.waiting{opacity:1;transform:none}}
 .links a.active{font-weight:700}[data-theme="dark"] .brand span,[data-theme="dark"] .links a:hover,[data-theme="dark"] .links a.active,[data-theme="dark"] .spark{color:#98dfbc}
+/* Mint gradients across the page and feature panels. */
+body{background:radial-gradient(ellipse at 85% 8%,rgba(125,221,178,.36),transparent 48%),radial-gradient(ellipse at 8% 55%,rgba(175,239,211,.34),transparent 50%),linear-gradient(145deg,#f5fcf8 0%,#dff5e9 42%,#edf9f2 72%,#cceedd 100%);background-attachment:fixed}
+.hero-art{background:linear-gradient(145deg,#effbf4 0%,#c1ebd6 55%,#9fdcbc 100%)}
+.contact{background:linear-gradient(125deg,#e6f8ed 0%,#c6ecd9 65%,#b0e2c7 100%)}
+.education{background:linear-gradient(140deg,#edf9f1,#ceeddc)}
+[data-theme="dark"] body{background:radial-gradient(ellipse at 85% 8%,rgba(38,121,88,.3),transparent 48%),radial-gradient(ellipse at 8% 55%,rgba(26,86,65,.3),transparent 50%),linear-gradient(145deg,#10261f 0%,#173e2f 45%,#102c23 75%,#1e4937 100%)}
+[data-theme="dark"] .hero-art{background:linear-gradient(145deg,#224b3b,#2d7053)}
+[data-theme="dark"] .contact,[data-theme="dark"] .education{background:linear-gradient(130deg,#1b3f31,#285b44)}
+@media(max-width:600px){body{background-attachment:scroll}}
 </style>
 </head>
 <body>
